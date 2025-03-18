@@ -1,0 +1,139 @@
+@use 'fonts' as *;
+
+/////////////// Media Queries ///////////////
+$min350: 'only screen and (min-width: 350px)';
+$min480: 'only screen and (min-width: 480px)';
+$min640: 'only screen and (min-width: 640px)';
+$min720: 'only screen and (min-width: 720px)';
+$min1024: 'only screen and (min-width: 1025px)';
+$min1150: 'only screen and (min-width: 1151px)';
+$min1280: 'only screen and (min-width: 1281px)';
+$min1366: 'only screen and (min-width: 1367px)';
+$min1440: 'only screen and (min-width: 1441px)';
+$min1660: 'only screen and (min-width: 1661px)';
+$min1800: 'only screen and (min-width: 1801px)';
+$min1910: 'only screen and (min-width: 1911px)';
+$min1920: 'only screen and (min-width: 1921px)';
+
+$tablet: 'only screen and (min-width: 720px) and (max-width: 1024px)';
+$mobile: 'only screen and (max-width: 639px)';
+$mobile_all: 'only screen and (max-width: 1024px)';
+$minHeight: 'only screen and (min-height: 800px)';
+
+// Helpers
+.w-reset {
+    max-width: 100%;
+    width: 100%;
+}
+
+.ul-reset {
+    margin: 0;
+    padding: 0;
+
+    li {
+        list-style-type: none;
+    }
+}
+
+p {
+    margin: 0 !important;
+    line-height: 130%;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.clear-li {
+    padding: 0;
+    margin: 0;
+    li {
+        list-style: none;
+    }
+}
+
+.fs-12 {
+    font-size: 12px;
+    @media #{$mobile} {
+        font-size: 10px;
+    }
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+.fs-22 {
+    font-size: 22px;
+}
+.fs-24 {
+    font-size: 24px;
+}
+.fs-27 {
+    font-size: 27px;
+}
+/////////////// Text ///////////////
+.bold-400 {
+    font-family: $mont-regular;
+}
+.bold-600 {
+    font-family: $mont-semi-bold;
+}
+.bold-700 {
+    font-family: $mont-bold;
+}
+.center {
+    text-align: center;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+.lower {
+    text-transform: lowercase;
+}
+
+.case {
+    text-transform: normal;
+}
+
+.nocase {
+    text-transform: none;
+}
+
+/////////////// Positions ///////////////
+.prel {
+    position: relative;
+}
+
+.pabs {
+    position: absolute;
+}
+
+.pfix {
+    position: fixed;
+}
+
+// Colors
+$black: #000000;
+$black-2: #333333;
+$black-3: #364A51;
+$white: #ffffff;
+$yellow: #FFB525;
+$yellow-2: #FFECB7;
+$yellow-3: #B66B25;
+$green: #9ECC43;
+$purple: #9747FF;
+$blue: #0098D2;
+$pink: #FF2559;
+$gray-1: #EEEEEE;
+$gray-2: #F8F8F8;
+$gray-3: #B5B5B5;
+$gray-4: #8A8A8A;
+$gray-5: #EAEAEA;
+$gray-6: #B9B9B9;
+$gray-7: #DFDFDF;

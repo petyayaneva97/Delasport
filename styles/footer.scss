@@ -1,0 +1,132 @@
+@use 'helpers' as *;
+
+// Footer
+.footer {
+    margin-top: 50px;
+}
+
+.eco-section {
+    padding: 0 9vw;
+}
+
+.eco-box {
+    display: flex;
+    align-items: center;
+    padding-bottom: 100px;
+
+    @media #{$mobile} {
+        padding-bottom: 50px;
+    }
+
+    .heading {
+        padding-right: 3vw;
+        padding-left: 17px;
+        margin: 0;
+
+        @media #{$mobile} {
+            padding: 0;
+            font-size: 12px;
+            text-align: start;
+        }
+    }
+
+    img {
+        @media #{$mobile} {
+            width: 30px;
+            padding-right: 10px;
+        }
+    }
+}
+
+.footer-links {
+    padding: 38px 69px 0 145px;
+
+    @media #{$mobile} {
+        flex-direction: column;
+    }
+
+    @media #{$mobile_all} {
+        padding: 20px;
+        text-align: center;
+    }
+
+    li {
+        padding-bottom: 10px;
+    }
+
+    .link {
+        color: $black;
+        transition: color .3s ease-in-out;
+
+        &:hover {
+            color: $blue;
+            transition: color .3s ease-in-out;
+        }
+    }
+}
+
+.payment-options {
+    @media #{$mobile} {
+        padding-top: 3rem;
+    }
+}
+
+.mobile-sticky-price {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: $white;
+    width: 100%;
+    padding: 20px;
+
+    .price {
+        font-size: 30px;
+    }
+
+    .percent {
+        font-size: 12px;
+    }
+
+    .add-btn {
+        height: 50px;
+    }
+}
+
+.footer-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 38px 40px 30px 145px;
+
+    @media #{$mobile} {
+        text-align: center;
+        flex-direction: column;
+        padding: 30px 20px;
+    }
+
+    .bottom-links {
+        display: flex;
+        flex-wrap: wrap;
+
+        @media #{$mobile} {
+            padding: 40px 0;
+            flex-direction: column;
+
+            li {
+                padding: 10px 0;
+            }
+        }
+
+        .link {
+            color: $black;
+            padding: 0 10px;
+            font-size: 14px;
+            transition: color .3s ease-in-out;
+
+            &:hover {
+                color: $blue;
+                transition: color .3s ease-in-out;
+            }
+        }
+    }
+}

@@ -1,0 +1,1650 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="msapplication-tap-highlight" content="no" />
+		<title>Dielsport</title>
+		<link rel="stylesheet" href="styles/style.css" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+		/>
+	</head>
+	<body class="body">
+		<div class="main-wrapper">
+			<!-- Header -->
+			<header class="header">
+				<div class="desktop-header header-wrapper d-none d-xl-flex">
+					<div class="header-logo-wrapper">
+						<img
+							src="images/icons/logo.svg"
+							class="w-reset"
+							alt="Dielsport Logo"
+						/>
+					</div>
+					<nav class="nav-wrapper" aria-label="Main Navigation">
+						<ul class="navbar ul-reset">
+							<li class="nav-list">
+								<a href="#" class="nav-link fs-14 anim-wrapper">
+									<span class="anim-el">МЪЖЕ <span>+</span></span>
+								</a>
+								<ul class="dropdown-menu ul-reset">
+									<li><a href="" class="sub-nav-link">ЯКЕТА</a></li>
+									<li><a href="" class="sub-nav-link">ПАНТАЛОНИ</a></li>
+									<li><a href="" class="sub-nav-link">АКСЕСОАРИ</a></li>
+								</ul>
+							</li>
+							<li class="nav-list">
+								<a href="#" class="nav-link fs-14 anim-wrapper"
+									><span class="anim-el">ЖЕНИ <span>+</span></span></a
+								>
+								<ul class="dropdown-menu ul-reset">
+									<li><a href="" class="sub-nav-link">ЗА DIELSPORT</a></li>
+									<li><a href="" class="sub-nav-link">ИСТОРИЯ</a></li>
+									<li><a href="" class="sub-nav-link">МАТЕРИАЛИ</a></li>
+									<li><a href="" class="sub-nav-link">ТЕХНОЛОГИИ</a></li>
+								</ul>
+							</li>
+							<li class="nav-list">
+								<a href="#" class="nav-link fs-14 anim-wrapper"
+									><span class="anim-txt anim-el">ДЕЦА <span>+</span></span></a
+								>
+							</li>
+							<li class="nav-list">
+								<a href="#" class="nav-link fs-14 anim-wrapper"
+									><span class="anim-el">Научете повече <span>+</span></span></a
+								>
+							</li>
+							<li class="nav-list">
+								<a href="#" class="nav-link fs-14 anim-wrapper"
+									><span class="anim-el">OUTLET</span></a
+								>
+                                <span class="dot-el"></span>
+							</li>
+						</ul>
+					</nav>
+					<div class="user-options">
+						<div
+							class="search overflow-hidden anim-wrapper"
+							aria-label="Search"
+						>
+							<svg
+								width="19"
+								height="20"
+								viewBox="0 0 19 20"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+								class="anim-el"
+							>
+								<circle
+									cx="8.58466"
+									cy="8.88207"
+									r="7.60151"
+									stroke="#333333"
+									stroke-width="1.5"
+								/>
+								<path
+									d="M17.2364 19.2004C17.5293 19.4933 18.0042 19.4933 18.297 19.2004C18.5899 18.9075 18.5899 18.4327 18.297 18.1398L17.2364 19.2004ZM12.6867 14.6508L17.2364 19.2004L18.297 18.1398L13.7474 13.5901L12.6867 14.6508Z"
+									fill="#333333"
+								/>
+							</svg>
+						</div>
+						<div
+							class="lang overflow-hidden anim-wrapper"
+							aria-label="Language"
+						>
+							<img src="images/en.png" class="anim-el" alt="English Language" />
+						</div>
+						<div class="user" aria-label="User Options">
+							<a href="" class="icon overflow-hidden anim-wrapper">
+								<svg
+									width="20"
+									height="19"
+									viewBox="0 0 20 19"
+									fill="none"
+									class="anim-el"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M13.7277 7.06582C13.7883 8.43232 13.2343 9.53359 12.1861 10.3791C13.2412 10.9177 13.9081 11.334 14.4417 11.9258C14.9761 12.5186 15.3709 13.2812 15.898 14.5C18.6421 11.1989 18.1756 6.20058 14.8685 3.49901L14.8685 3.49901C11.3861 0.653833 6.40853 1.19607 3.64557 4.74019L3.56671 4.67871L3.64557 4.7402C1.03978 8.08248 1.86629 12.3671 3.81236 14.4667C4.41304 12.548 5.64952 11.1945 7.49573 10.3912M13.7277 7.06582C13.7277 7.06582 13.7277 7.06583 13.7277 7.06584L13.6278 7.07025L13.7277 7.06582ZM13.7277 7.06582C13.6813 6.01439 13.2503 5.10879 12.4624 4.40316L12.4624 4.40314C10.8757 2.98304 8.51331 3.06525 7.06138 4.56109C5.68384 5.98024 5.38627 8.62546 7.49573 10.3912M7.49573 10.3912C7.52433 10.4152 7.55337 10.4389 7.58286 10.4626L12.3957 4.47765C10.8484 3.09282 8.54716 3.17395 7.13314 4.63074C5.783 6.02165 5.49626 8.62247 7.59917 10.3471C7.56448 10.3616 7.53 10.3763 7.49573 10.3912ZM5.0174 15.8371C4.80794 15.6805 4.75575 15.5175 4.8023 15.272C5.25295 12.8875 7.40959 11.0921 9.83917 11.0858C12.2892 11.0794 14.4557 12.8784 14.9014 15.2791L5.0174 15.8371ZM5.0174 15.8371C6.44975 16.9115 8.05913 17.454 9.8441 17.4815L5.0174 15.8371ZM14.6165 15.7613L14.6165 15.7613C13.201 16.8219 11.6126 17.3561 9.84416 17.3815C8.08061 17.3541 6.49226 16.8184 5.0774 15.7571L5.07728 15.757C4.98269 15.6863 4.93247 15.6208 4.90772 15.5534C4.88276 15.4854 4.8792 15.4032 4.90055 15.2906L4.90056 15.2906C5.34231 12.9532 7.45789 11.192 9.83943 11.1858C12.2412 11.1795 14.3662 12.9441 14.8031 15.2973L14.8031 15.2973C14.8241 15.4104 14.8176 15.492 14.7904 15.5592C14.763 15.6267 14.71 15.6913 14.6165 15.7613ZM9.86766 4.63762L9.8677 4.63762C11.3012 4.64305 12.4882 5.83698 12.4882 7.27201V7.27272C12.4882 8.71655 11.2709 9.92636 9.83231 9.91346C8.39976 9.90055 7.21128 8.70208 7.21128 7.2706C7.21128 5.82166 8.41129 4.6315 9.86766 4.63762ZM0.750098 9.52383C0.748672 14.549 4.82312 18.6291 9.84337 18.6306C14.8526 18.6313 18.9423 14.5637 18.9494 9.57198C18.9565 4.51881 14.8915 0.43199 9.85612 0.430564C4.8318 0.429137 0.751524 4.50416 0.750098 9.52383Z"
+										fill="#333333"
+										stroke="#333333"
+										stroke-width="0.2"
+									/>
+								</svg>
+							</a>
+							<a href="" class="icon overflow-hidden anim-wrapper">
+								<svg
+									width="20"
+									height="17"
+									viewBox="0 0 20 17"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+									class="anim-el"
+								>
+									<path
+										d="M18.0905 5.79304V5.75149C18.0905 5.70052 18.0918 5.65228 18.093 5.60568C18.0956 5.50855 18.0981 5.41855 18.0882 5.32581L18.0905 5.79304ZM18.0905 5.79304L18.0909 5.79346M18.0905 5.79304L18.0909 5.79346M18.0909 5.79346C18.0769 6.94518 17.6291 7.9598 17.0034 8.91779L17.0034 8.91781C15.9287 10.5641 14.5216 11.9095 12.9865 13.1303L13.0488 13.2086L12.9865 13.1304C12.2466 13.7189 11.4712 14.2639 10.6937 14.8105C10.5255 14.9288 10.3571 15.0471 10.189 15.166C10.1568 15.1887 10.0948 15.2109 10.0264 15.2191C9.99353 15.223 9.96299 15.2233 9.93794 15.2201C9.91173 15.2169 9.89803 15.2108 9.8931 15.2075L9.89272 15.2073C7.44376 13.597 5.15348 11.8149 3.38639 9.45955L18.0909 5.79346ZM17.9934 4.80471L17.9933 4.80468C17.5494 3.15078 16.4996 2.08 14.8329 1.72061C13.1327 1.35412 11.7208 1.92433 10.6301 3.28564L10.6301 3.2857C10.4377 3.52546 10.2314 3.67004 10.0049 3.6697C9.77863 3.66935 9.57226 3.52434 9.37962 3.2851L9.37961 3.28508C8.31723 1.9651 6.95432 1.41966 5.27463 1.69594C3.13433 2.04812 1.60074 4.22578 1.95736 6.36181C2.15132 7.52342 2.68745 8.52747 3.38638 9.45953L17.9934 4.80471ZM17.9934 4.80471C18.0387 4.9734 18.0687 5.14948 18.0881 5.3255L17.9934 4.80471ZM12.509 0.452091L12.5089 0.452103C11.5485 0.718384 10.7281 1.2099 10.0103 1.90735C8.65942 0.645262 7.11038 0.0834898 5.27376 0.315414L5.27375 0.315415C2.19519 0.704485 -0.0105768 3.80303 0.649582 6.82383L0.649586 6.82384C0.95918 8.23926 1.65076 9.45812 2.52514 10.5737L2.60384 10.512L2.52514 10.5737C4.43475 13.0099 6.84122 14.8761 9.4133 16.542C9.61919 16.6758 9.81601 16.7475 10.0192 16.7465C10.2221 16.7454 10.4183 16.6718 10.6233 16.5392C12.3278 15.4368 13.9503 14.2278 15.427 12.8307L15.427 12.8307C16.7536 11.5751 17.9624 10.2108 18.7688 8.53832C19.3055 7.4251 19.5901 6.26123 19.4172 4.9956L19.4172 4.99556C18.9692 1.72703 15.699 -0.430732 12.509 0.452091ZM3.30639 9.51954C5.08367 11.8885 7.38511 13.6782 9.83778 15.2908L3.30639 9.51954Z"
+										fill="#333333"
+										stroke="#333333"
+										stroke-width="0.2"
+									/>
+								</svg>
+							</a>
+							<a href="" class="icon overflow-hidden anim-wrapper">
+								<svg
+									width="20"
+									height="17"
+									viewBox="0 0 20 17"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+									class="anim-el"
+								>
+									<path
+										d="M6.54785 1.56036L1.65723 6.4511H16.264"
+										stroke="#333333"
+										stroke-width="1.5"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+									/>
+									<path
+										d="M13.4604 15.4396L18.3511 10.5489L3.74433 10.5489"
+										stroke="#333333"
+										stroke-width="1.5"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+									/>
+								</svg>
+							</a>
+						</div>
+						<div class="cart anim-wrapper">
+							<div class="cart-icon prel">
+								<svg
+									width="22"
+									height="21"
+									viewBox="0 0 22 21"
+									fill="none"
+									class="anim-el green"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<g clip-path="url(#clip0_959_222)">
+										<path
+											d="M13.6786 2.84431C15.6243 2.84431 17.5716 2.89649 19.5139 2.82663C20.92 2.77613 22.1564 4.06058 21.7542 5.6952C21.1765 8.04274 20.6626 10.4063 20.118 12.7622C19.8499 13.9204 19.0571 14.5669 17.9026 14.5677C14.4946 14.5702 11.0866 14.5702 7.6786 14.5677C6.56053 14.5669 5.72715 13.9028 5.47474                                        12.79C4.8557 10.0637 4.24825 7.33486 3.63584 4.6077C3.62094 4.53952 3.59198 4.47134 3.59115 4.40316C3.58205 3.31903 2.96632 2.75172 2.01294 2.45291C1.76549 2.37547 1.53129 2.245 1.30122 2.11959C0.872529 1.88391 0.721908 1.43948 0.914736 1.01778C1.09763 0.61881 1.53956 0.415114 1.95584 0.597767C2.65018 0.901626 3.34039 1.22148 4.00743 1.58173C4.53211 1.86539 4.82756 2.35779 4.95915 2.94531C5.65184 6.02767 6.34453 9.10919 7.03474 12.1916C7.16963 12.7934 7.27225 12.8843 7.86646 12.8843C11.1636 12.8843 14.4615 12.8843 17.7586 12.8843C18.3156 12.8843 18.4149 12.7993 18.5423 12.2437C19.0612 9.98205 19.5834 7.72205 20.1015 5.46036C20.2736 4.7087 20.1247 4.52184 19.3699 4.52184C15.5208 4.52184 11.6709 4.52184 7.82177 4.521C7.65708 4.521 7.48908 4.52353 7.32687 4.49743C6.86674 4.42252 6.59115 4.07489 6.61267 3.62037C6.63418 3.1751 6.95446 2.85356 7.42784 2.8502C8.76605 2.8401 10.1043 2.84599 11.4425 2.84515C12.1873 2.84515 12.9329 2.84515 13.6778 2.84515L13.6786 2.84431ZM6.24025 18.3571C6.23529 19.5566 7.18784 20.5397 8.34646 20.5304C9.48936 20.5212 10.451 19.5397 10.4518 18.3807C10.4518 17.2124 9.50425 16.2503 8.34811 16.2469C7.17046 16.2436 6.24522 17.1695 6.24025 18.3571ZM9.13101 18.3942C9.12025 18.8125 8.73129 19.1946 8.32246 19.1862C7.8946 19.1778 7.55694 18.8133 7.56191 18.3655C7.56687 17.9127 7.90287 17.5836 8.35225 17.5903C8.78756 17.597 9.14177 17.9624 9.13101 18.3933V18.3942ZM17.7735 16.2461C16.6099 16.2469 15.6714 17.1913 15.6623 18.3689C15.654 19.5448 16.6422 20.5473 17.7925 20.5296C18.9511 20.5119 19.8706 19.554 19.8673 18.3681C19.864 17.1737 18.9478 16.2453 17.7735 16.2461ZM17.7834 19.1862C17.3738 19.1929 16.9881 18.8108 16.9798 18.3899C16.9716 17.9565 17.3233 17.5962 17.7603 17.5912C18.2113 17.5861 18.5431 17.9135 18.5465 18.3689C18.5506 18.815 18.2096 19.1795 17.7826 19.1862H17.7834Z"
+											fill="#333333"
+										/>
+									</g>
+									<defs>
+										<clipPath id="clip0_959_222">
+											<rect
+												width="21"
+												height="20"
+												fill="white"
+												transform="translate(0.832031 0.530563)"
+											/>
+										</clipPath>
+									</defs>
+								</svg>
+								<span class="cart-num fs-12">2</span>
+							</div>
+							<span class="anim-el green">Количка</span>
+						</div>
+					</div>
+				</div>
+
+				<!-- Mobile Header -->
+				<div class="mobile-header d-block d-xl-none">
+					<div class="header-mobile-wrapper border-bottom">
+						<div>
+							<img
+								src="images/icons/burger-btn.svg"
+								class="open-nav"
+								alt="burger button"
+							/>
+						</div>
+						<div class="logo-mobile">
+							<img src="images/icons/logo.svg" class="img-fluid" alt="logo" />
+						</div>
+						<div class="user-tools-mobile">
+							<img src="images/icons/search.svg" alt="search icon" />
+							<div class="cart-mobile ms-2">
+								<img src="images/icons/mobile-cart.svg" alt="cart icon" />
+							</div>
+						</div>
+					</div>
+					<div class="mobile-nav">
+						<div class="menu-section border-bottom">
+							<div class="d-flex align-items-center">
+								<img src="images/icons/user.svg" class="me-2" alt="" />
+								<span>Моят профил</span>
+							</div>
+						</div>
+						<div class="menu-section border-bottom">
+							<div class="d-flex align-items-center">
+								<img src="images/icons/like.svg" class="me-2" alt="" />
+								<span>Добави в любими</span>
+							</div>
+							<div class="d-flex align-items-center mt-4">
+								<img src="images/icons/switch.svg" class="me-2" alt="" />
+								<span>Сравни</span>
+							</div>
+						</div>
+						<div class="menu-section menu-section-dropdown border-bottom">
+							<div class="">
+								<a class="dropdown-menu-main-link fs-24" href="#"
+									>Мъже <img src="images/icons/open.svg" alt=""
+								/></a>
+								<ul class="mobile-dropdown ul-reset">
+									<li><a href="" class="link">Якета</a></li>
+									<li><a href="" class="link">Якета</a></li>
+									<li><a href="" class="link">Якета</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="menu-section menu-section-dropdown border-bottom">
+							<div class="">
+								<a class="dropdown-menu-main-link fs-24" href="#"
+									>Жени <img src="images/icons/open.svg" alt=""
+								/></a>
+								<ul class="mobile-dropdown ul-reset">
+									<li><a href="" class="link">Якета</a></li>
+									<li><a href="" class="link">Якета</a></li>
+									<li><a href="" class="link">Якета</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="menu-section menu-section-dropdown border-bottom">
+							<div class="">
+								<a class="dropdown-menu-main-link fs-24" href="#"
+									>Деца <img src="images/icons/open.svg" alt=""
+								/></a>
+								<ul class="mobile-dropdown ul-reset">
+									<li><a href="" class="link">Якета</a></li>
+									<li><a href="" class="link">Якета</a></li>
+									<li><a href="" class="link">Якета</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="close-nav">
+							<img src="images/icons/close.svg" alt="close icon" />
+						</div>
+						<div class="mobile-lang">
+							<img src="images/en.png" alt="" />
+						</div>
+					</div>
+				</div>
+			</header>
+
+			<!-- Product Section -->
+			<div class="product-wrapper">
+				<div class="product-heading d-block d-xl-none">
+					<div class="breadcrumbs">
+						<a href="" class="bc-link text-black d-flex align-items-center">
+							<img src="images/icons/back.svg" class="me-1" alt="" />
+							Дамски ски якета</a
+						>
+					</div>
+					<h1 class="heading pt-3">X-RAK WOMAN</h1>
+					<div class="product-storage">
+						<div class="d-flex align-items-center pe-3 fs-14">
+							<img src="images/icons/check.svg" alt="Check Icon" class="pe-2" />
+							<span>В наличност</span>
+						</div>
+						<div class="pe-3 fs-14">
+							<span>SKU: 272374C34/162</span>
+						</div>
+						<div class="d-flex align-items-center fs-14">
+							<img
+								src="images/icons/rating.svg"
+								alt="Rating Icon"
+								class="pe-2"
+							/>
+							<span class="bold-600">10.000 / 10.000</span>
+						</div>
+					</div>
+					<div>
+						<p class="fs-16 pt-3">
+							Ако се нуждаеш от впечатляващ дизайн, истински комфорт и перфектна
+							защита срещу суровите зимни условия, мъжкото ски яке X-RAY е
+							правилният избор за теб!
+						</p>
+					</div>
+				</div>
+				<div class="product-slider">
+					<div class="py-4">
+						<!-- Bootstrap Carousel -->
+						<div id="carouselProduct" class="carousel slide">
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<img
+										src="images/product-img-1.png"
+										class="d-block w-100"
+										alt="Product Image 1"
+									/>
+								</div>
+								<div class="carousel-item">
+									<img
+										src="images/product-img-2.png"
+										class="d-block w-100"
+										alt="Product Image 2"
+									/>
+								</div>
+								<div class="carousel-item">
+									<img
+										src="images/product-img-3.png"
+										class="d-block w-100"
+										alt="Product Image 3"
+									/>
+								</div>
+							</div>
+							<button
+								class="carousel-control-prev"
+								type="button"
+								data-bs-target="#carouselProduct"
+								data-bs-slide="prev"
+							>
+								<img
+									src="images/icons/arrow-l.svg"
+									class="carousel-control-prev-icon"
+									alt="Previous Slide"
+								/>
+							</button>
+							<button
+								class="carousel-control-next"
+								type="button"
+								data-bs-target="#carouselProduct"
+								data-bs-slide="next"
+							>
+								<img
+									src="images/icons/arror-r.svg"
+									class="carousel-control-next-icon"
+									alt="Next Slide"
+								/>
+							</button>
+							<div>
+								<div class="sale-label d-none d-xl-block">
+									<img
+										src="images/sale.png"
+										alt="Sale Background"
+										class="sale-bgn"
+									/>
+									<span class="sale-txt bold-700 prel fs-16">SALE</span>
+								</div>
+							</div>
+							<div class="extras">
+								<div class="free-delivery mb-2">
+									<img
+										src="images/icons/delivery.svg"
+										alt="Delivery Icon"
+										class="pe-2"
+									/>
+									<span class="bold-700 fs-12">Безплатна доставка</span>
+								</div>
+								<div class="garanty">
+									<span class="bold-700 fs-12">2 години доставка</span>
+								</div>
+							</div>
+							<div class="carousel-counter d-block d-xl-none">
+								<span id="currentSlide">1</span> /
+								<span id="totalSlides"></span>
+							</div>
+						</div>
+						<!-- Thumbnail Images -->
+						<div class="thumbnails-container d-none d-xl-block">
+							<img
+								src="images/product-img-1.png"
+								class="img-fluid thumbnail"
+								onclick="changeSlide(0)"
+								alt="Thumbnail 1"
+							/>
+							<img
+								src="images/product-img-2.png"
+								class="img-fluid thumbnail"
+								onclick="changeSlide(1)"
+								alt="Thumbnail 2"
+							/>
+							<img
+								src="images/product-img-3.png"
+								class="img-fluid thumbnail"
+								onclick="changeSlide(2)"
+								alt="Thumbnail 3"
+							/>
+						</div>
+					</div>
+				</div>
+
+				<div class="product-container">
+					<div class="product-info" id="buy">
+						<div class="product-heading border-bottom d-none d-xl-block">
+							<div class="breadcrumbs">
+								<a href="" class="bc-link">Начало</a>
+								<span>/</span>
+								<a href="" class="bc-link">Жени</a>
+								<span>/</span>
+								<a href="" class="bc-link">Дамски ски якета</a>
+								<span>/</span>
+								<a href="" class="bc-link">X-RAK WOMAN</a>
+							</div>
+							<h1 class="heading pt-3">X-RAK WOMAN</h1>
+							<div class="product-storage">
+								<div class="d-flex align-items-center pe-3 fs-14">
+									<img
+										src="images/icons/check.svg"
+										alt="Check Icon"
+										class="pe-2"
+									/>
+									<span>В наличност</span>
+								</div>
+								<div class="pe-3 fs-14">
+									<span>SKU: 272374C34/162</span>
+								</div>
+								<div class="d-flex align-items-center fs-14">
+									<img
+										src="images/icons/rating.svg"
+										alt="Rating Icon"
+										class="pe-2"
+									/>
+									<span class="bold-600">10.000 / 10.000</span>
+								</div>
+							</div>
+							<div>
+								<p class="fs-16 pt-3">
+									Ако се нуждаеш от впечатляващ дизайн, истински комфорт и
+									перфектна защита срещу суровите зимни условия, мъжкото ски яке
+									X-RAY е правилният избор за теб!
+								</p>
+							</div>
+						</div>
+
+						<div class="select-clr border-bottom">
+							<p class="fs-16 bold-600">Цвят</p>
+							<div class="items-clr">
+								<div class="item active">
+									<img src="images/clr-1.png" class="w-reset" alt="Color 1" />
+								</div>
+								<div class="item">
+									<img src="images/clr-2.png" class="w-reset" alt="Color 2" />
+								</div>
+								<div class="item">
+									<img src="images/clr-3.png" class="w-reset" alt="Color 3" />
+								</div>
+								<div class="item">
+									<img src="images/clr-4.png" class="w-reset" alt="Color 4" />
+								</div>
+							</div>
+
+							<p class="fs-16 bold-600">Размер</p>
+							<div class="item-size">
+								<div class="item active">
+									<span>XS</span>
+								</div>
+								<div class="item">
+									<span>S</span>
+								</div>
+								<div class="item">
+									<span>M</span>
+								</div>
+								<div class="item">
+									<span>L</span>
+								</div>
+								<div class="item">
+									<span>XL</span>
+								</div>
+								<div class="item"><span>2XL</span></div>
+							</div>
+						</div>
+
+						<div class="buy-set border-bottom">
+							<p class="fs-16 bold-600">Купи в комплект с</p>
+							<div class="set-wrapper">
+								<div class="set-item">
+									<div class="set-img-price">
+										<div class="set-img">
+											<img
+												src="images/set-item-1.png"
+												class="w-reset"
+												alt="Set Item 1"
+											/>
+										</div>
+										<div>
+											<h2 class="set-heading fs-16 my-0">
+												Дамски ски панталон PANCY
+											</h2>
+											<span class="product-price">59.00лв.</span>
+											<span
+												><span class="product-price-old">78.00лв.</span
+												><span class="fs-12">лв</span></span
+											>
+										</div>
+									</div>
+									<div class="open-product-modal">
+										<img src="images/icons/add.svg" alt="Add Icon" />
+									</div>
+									<!-- Modal -->
+									<div
+										class="modal fade"
+										id="modalProduct"
+										tabindex="-1"
+										aria-labelledby="myModalLabel"
+										aria-hidden="true"
+									>
+										<div class="modal-dialog">
+											<div class="modal-wrapper modal-content">
+												<div
+													class="mobile-modal-h border-bottom d-block d-xl-none"
+												>
+													<h2 class="fs-22 pe-5 mb-0">
+														УНИСЕКС ЧОРАПИ ЗА СКИ] С THERMOLITE™
+													</h2>
+												</div>
+												<div class="modal-slider">
+													<div class="product-wrapper">
+														<img
+															src="images/modal-item.png"
+															class="w-reset"
+															alt="Modal Item"
+														/>
+													</div>
+												</div>
+												<div class="modal-info">
+													<div
+														class="modal-container border-bottom d-none d-xl-block"
+													>
+														<h2 class="heading">Дамски ски панталон PANCY</h2>
+														<p class="modal-product-txt">
+															PANCY e класически дамски панталон със свободен
+															силует и ергономичен дизайн. Якето се отличава с
+															двустранно разтеглив лицев плат с много добри
+															показатели на защита и еластична подплата...
+														</p>
+														<a href="" class="open-link fs-14">
+															<span class="open-link-icon">
+																<img
+																	src="images/icons/open-link.svg"
+																	alt="Open Link Icon"
+																/>
+															</span>
+															Покажи продукта
+														</a>
+													</div>
+													<div class="modal-container border-bottom">
+														<p class="fs-14 bold-600">Избери размер</p>
+														<div class="item-size">
+															<div class="item active">
+																<span>XS</span>
+															</div>
+															<div class="item">
+																<span>S</span>
+															</div>
+															<div class="item">
+																<span>M</span>
+															</div>
+															<div class="item">
+																<span>L</span>
+															</div>
+															<div class="item disabled">
+																<span>XL</span>
+															</div>
+															<div class="item disabled"><span>2XL</span></div>
+														</div>
+													</div>
+													<div class="modal-container price d-none d-xl-block">
+														<div class="discount-price">
+															<span
+																><span class="old-price">78.00 </span
+																><span class="fs-12">лв</span></span
+															>
+															<span class="percent">-23%</span>
+														</div>
+														<div class="current-price">
+															<div class="price pe-3">
+																59.00<span class="fs-16">лв</span>
+															</div>
+															<div class="bold-600">
+																<p class="fs-18">Спестяваш:</p>
+																<p class="hightlight fs-18">50.90лв</p>
+															</div>
+														</div>
+														<a href="" class="add-btn green my-4 anim-wrapper">
+															<img
+																src="images/icons/add.svg"
+																class="pe-2"
+																alt="Add Icon"
+															/>
+															<span class="fs-18 bold-700 anim-el white"
+																>Добави в количката</span
+															>
+														</a>
+													</div>
+													<div class="price-wrapper d-block d-xl-none">
+														<div class="discount-price justify-content-center">
+															<span class="percent ms-0">-23%</span>
+															<div>
+																<p class="fs-14 bold-600">
+																	Спестяваш:
+																	<span class="hightlight fs-18">50.90лв</span>
+																</p>
+															</div>
+														</div>
+														<div
+															class="current-price d-flex align-items-baseline justify-content-center py-3"
+														>
+															<div class="price pe-3">
+																59.00<span class="fs-16">лв</span>
+															</div>
+
+															<del class="fs-27"> 78.00<span>лв</span> </del>
+														</div>
+														<div class="add-btn-wrapper">
+															<a
+																href=""
+																class="add-btn green w-100 anim-wrapper"
+															>
+																<img
+																	src="images/icons/add.svg"
+																	class="pe-2"
+																	alt="Add Icon"
+																/>
+																<span class="fs-18 bold-600 ms-4 anim-el white"
+																	>Добави в количката</span
+																>
+															</a>
+														</div>
+													</div>
+												</div>
+												<div class="modal-footer">
+													<img
+														src="images/icons/close.svg"
+														data-bs-dismiss="modal"
+														alt="Close Icon"
+													/>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="set-item">
+									<div class="set-img-price">
+										<div class="set-img">
+											<img
+												src="images/set-item-1.png"
+												class="w-reset"
+												alt="Set Item 2"
+											/>
+										</div>
+										<div>
+											<h2 class="set-heading fs-16 my-0">
+												Дамски ски панталон PANCY
+											</h2>
+											<span class="product-price">59.00лв.</span>
+											<span
+												><span class="product-price-old">78.00лв.</span
+												><span class="fs-12">лв</span></span
+											>
+										</div>
+									</div>
+									<div class="open-product-modal">
+										<img src="images/icons/add.svg" alt="Add Icon" />
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="price-wrapper d-none d-xl-block">
+							<div class="discount-price">
+								<span class="percent">-23%</span>
+								<span
+									><span class="old-price">78.00 </span
+									><span class="fs-12">лв</span></span
+								>
+							</div>
+							<div class="current-price">
+								<div class="price pe-3">59.00<span class="fs-16">лв</span></div>
+								<div class="bold-600">
+									<p class="fs-18">Спестяваш:</p>
+									<p class="hightlight fs-18">50.90лв</p>
+								</div>
+							</div>
+							<div class="add-btn-wrapper">
+								<a href="" class="add-btn green anim-wrapper">
+									<img src="images/icons/add.svg" class="pe-2" alt="Add Icon" />
+									<span class="fs-18 bold-700 anim-el white"
+										>Добави в количката</span
+									>
+								</a>
+								<a href="" class="add-btn mx-2 anim-wrapper">
+									<img
+										src="images/icons/like.svg"
+										class="pe-2 anim-el blue"
+										alt="Like Icon"
+									/>
+									<span class="fs-14 anim-el blue">Добави в любими</span>
+								</a>
+								<a href="" class="add-btn mx-2 anim-wrapper">
+									<img
+										src="images/icons/switch.svg"
+										class="pe-2 anim-el blue"
+										alt="Compare Icon"
+									/>
+									<span class="fs-14 anim-el blue">Добави в любими</span>
+								</a>
+							</div>
+							<div class="discount-tooltip">
+								<img src="images/icons/card.svg" class="me-2" alt="Card Icon" />
+								<p class="fs-14">-5% отстъпка при плащане с карта</p>
+							</div>
+						</div>
+						<div class="price-wrapper d-block d-xl-none">
+							<div class="discount-price justify-content-center">
+								<span class="percent">-23%</span>
+								<div>
+									<p class="fs-14 bold-600">
+										Спестяваш:
+										<span class="hightlight fs-18">50.90лв</span>
+									</p>
+								</div>
+							</div>
+							<div
+								class="current-price d-flex align-items-baseline justify-content-center py-3"
+							>
+								<div class="price pe-3">59.00<span class="fs-16">лв</span></div>
+
+								<del class="fs-27"> 78.00<span>лв</span> </del>
+							</div>
+							<div class="add-btn-wrapper">
+								<a href="" class="add-btn green w-100">
+									<img src="images/icons/add.svg" class="pe-2" alt="Add Icon" />
+									<span class="fs-18 bold-600 ms-4">Добави в количката</span>
+								</a>
+							</div>
+
+							<div class="discount-tooltip">
+								<img src="images/icons/card.svg" class="me-2" alt="Card Icon" />
+								<p class="fs-14">-5% отстъпка при плащане с карта</p>
+							</div>
+							<div class="d-flex justify-content-around">
+                                <div>
+                                    <a href="" class="add-btn me-1 p-0 border-0">
+                                        <img
+                                            src="images/icons/like.svg"
+                                            class="pe-2"
+                                            alt="Like Icon"
+                                        />
+                                        <span class="fs-14">Добави в любими</span>
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="" class="add-btn p-0 border-0">
+                                        <img
+                                            src="images/icons/switch.svg"
+                                            class="pe-2"
+                                            alt="Compare Icon"
+                                        />
+                                        <span class="fs-14">Сравни</span>
+                                    </a>
+                                </div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Gallery Section -->
+					<div class="page-block gallery-section" id="gallery">
+						<h2 class="section-heading">Галерия</h2>
+						<div class="row">
+							<a
+								href="images/img.png"
+								data-toggle="lightbox"
+								data-gallery="example-gallery"
+								class="col-6 col-md-4 img-gallery"
+							>
+								<img
+									src="images/img.png"
+									class="img-fluid"
+									alt="Gallery Image 1"
+								/>
+							</a>
+							<a
+								href="images/img-2.png"
+								data-toggle="lightbox"
+								data-gallery="example-gallery"
+								class="col-6 col-md-4 img-gallery"
+							>
+								<img
+									src="images/img-2.png"
+									class="img-fluid"
+									alt="Gallery Image 2"
+								/>
+							</a>
+							<a
+								href="images/img.png"
+								data-toggle="lightbox"
+								data-gallery="example-gallery"
+								class="col-6 col-md-4 img-gallery"
+							>
+								<img
+									src="images/img.png"
+									class="img-fluid"
+									alt="Gallery Image 3"
+								/>
+							</a>
+							<a
+								href="images/img-2.png"
+								data-toggle="lightbox"
+								data-gallery="example-gallery"
+								class="col-6 col-md-4 img-gallery"
+							>
+								<img
+									src="images/img-2.png"
+									class="img-fluid"
+									alt="Gallery Image 4"
+								/>
+							</a>
+							<a
+								href="images/img.png"
+								data-toggle="lightbox"
+								data-gallery="example-gallery"
+								class="col-6 col-md-4 img-gallery"
+							>
+								<img
+									src="images/img.png"
+									class="img-fluid"
+									alt="Gallery Image 5"
+								/>
+							</a>
+							<a
+								href="images/img-2.png"
+								data-toggle="lightbox"
+								data-gallery="example-gallery"
+								class="col-6 col-md-4 img-gallery"
+							>
+								<img
+									src="images/img-2.png"
+									class="img-fluid"
+									alt="Gallery Image 6"
+								/>
+							</a>
+						</div>
+					</div>
+
+					<!-- Text Blocks -->
+					<div class="page-block" id="details">
+						<div class="text-block">
+							<h2 class="section-heading pb-3">
+								<img
+									src="images/icons/details.svg"
+									class="me-2"
+									alt="Details Icon"
+								/>Детайли
+							</h2>
+							<p>
+								Ако търсиш впечатляващ дизайн, истински комфорт и перфектна
+								защита срещу суровите зимни условия, то мъжкото ски яке X-RAY е
+								правилният избор за теб!
+							</p>
+							<p>
+								Създадено чрез модерна сублимационна технология за контрастна и
+								динамична графика, X-RAY е един от най-търсените артикули този
+								сезон.
+							</p>
+							<p>
+								Материята LAKA осигурява най-висока ефективност, здравина и
+								издръжливост срещу студ и вятър. В съчетание със своето трайно
+								водоотблъскващо покритие (DWR) и цветове с висока UV
+								устойчивост, X-RAY ще те подготви за всяка ситуация на ски
+								пистата.
+							</p>
+							<p>
+								Вентилиращи ципове, детайли, предпазващи брадичката от
+								измръзване, техническа 3D качулка, напълно съвместима с шлем, са
+								само част от функциите, които якето предлага.
+							</p>
+							<p>
+								А яке без джобове? Тук те са в изобилие и то предназначени за
+								всякаква употреба – за телефон или други джаджи, за ски карта,
+								за маска или очила, с включена кърпичка за почистване.
+							</p>
+							<p>
+								X-RAY се предлага в шест основни цвята, а сублимираният детайл
+								придава допълнително разнообразие в разцветките. Всичко това в
+								един-единствен продукт – X-RAY!
+							</p>
+						</div>
+					</div>
+
+					<div class="page-block" id="characteristics">
+						<div class="text-block">
+							<h2 class="section-heading pb-3">
+								<img
+									src="images/icons/burger.svg"
+									class="me-2"
+									alt="Burger Icon"
+								/>Характеристики
+							</h2>
+							<ul class="clear-li">
+								<li>Дълго яке със свободен силует</li>
+								<li>Ергономичен дизайн</li>
+								<li>Вентилационни ципове</li>
+								<li>Топъл предпазител за брадичката</li>
+								<li>Вътрешна яка от микрофибър</li>
+								<li>Два джоба на гърдите</li>
+								<li>Техническа 3D качулка</li>
+								<li>Регулатор на маншета</li>
+								<li>Регулатор на ханша</li>
+								<li>Качулка, съвместима с каска</li>
+								<li>Джоб за ски карта</li>
+								<li>Ключодържател</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="page-block" id="materials">
+						<div class="text-block">
+							<h2 class="section-heading pb-3">
+								<img
+									src="images/icons/hashtag.svg"
+									class="me-2"
+									alt="Hashtag Icon"
+								/>Материали
+							</h2>
+							<div class="img-text-block mb-3">
+								<div class="row align-items-center p-4 bg-white rounded-5">
+									<div class="col-md-3 text-center">
+										<img
+											src="images/icons/logo-brand.svg"
+											alt="LAKA®15"
+											class="img-fluid"
+										/>
+									</div>
+									<div class="col-md-9">
+										<h5 class="bold-700 pb-2">LAKA®15</h5>
+										<ul class="m-0 ps-3">
+											<li>
+												Четиристранно еластичен плат с диагонална сплитка 92%
+												Polyester + 8% Spandex
+											</li>
+											<li>Дишаща TPU ламинация</li>
+											<li>
+												Висока водоустойчивост, издържаща водно налягане 15 000
+												mm/H2O
+											</li>
+											<li>Висока паропропускливост: над 15 000 g/m²/24hrs</li>
+											<li>
+												Водоотблъскващо покритие с голяма устойчивост на
+												износване Teflon®DWR
+											</li>
+											<li>Отлична ветроустойчивост</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="img-text-block mb-3">
+								<div class="row align-items-center p-4 bg-white rounded-5">
+									<div class="col-md-3 text-center">
+										<img
+											src="images/icons/logo-brand.svg"
+											alt="LAKA®15"
+											class="img-fluid"
+										/>
+									</div>
+									<div class="col-md-9">
+										<h5 class="bold-700 pb-2">LAKA®15</h5>
+										<ul class="m-0 ps-3">
+											<li>
+												Четиристранно еластичен плат с диагонална сплитка 92%
+												Polyester + 8% Spandex
+											</li>
+											<li>Дишаща TPU ламинация</li>
+											<li>
+												Висока водоустойчивост, издържаща водно налягане 15 000
+												mm/H2O
+											</li>
+											<li>Висока паропропускливост: над 15 000 g/m²/24hrs</li>
+											<li>
+												Водоотблъскващо покритие с голяма устойчивост на
+												износване Teflon®DWR
+											</li>
+											<li>Отлична ветроустойчивост</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<p class="fs-14">
+								Повече информация за всички материали, с които разполагаме може
+								да откриете тук: <a href class="link bold-600">Материали</a>
+							</p>
+						</div>
+					</div>
+
+					<div class="page-block" id="tech">
+						<div class="text-block">
+							<h2 class="section-heading pb-3">
+								<img
+									src="images/icons/target.svg"
+									class="me-2"
+									alt="Target Icon"
+								/>Технологии
+							</h2>
+							<div class="img-text-block mb-3">
+								<div class="row p-4 bg-white rounded-5">
+									<div class="col-md-3 text-center">
+										<img
+											src="images/icons/logo-brand-2.svg"
+											alt="LAKA®15"
+											class="img-fluid"
+										/>
+									</div>
+									<div class="col-md-9">
+										<h5 class="bold-700 pb-2">Лазерно рязане</h5>
+										<ul class="m-0 ps-3">
+											<li>Най-модерният метод за рязане на платове</li>
+											<li>
+												Лазерен лъч с висока интензивност реже плата с голяма
+												точност и запечатва краищата
+											</li>
+											<li>
+												Прецизно отрязване, независимо от формата и размера
+											</li>
+											<li>Висока паропропускливост: над 15 000 g/m²/24hrs</li>
+											<li>Без разнищени краища и стърчащи нишки</li>
+										</ul>
+										<p class="pt-2">
+											Лазерът е най-добрата технология за рязане на платове, тъй
+											като помага за преодоляване на практически трудности като
+											сложността на формите, нищенето на краищата и точността на
+											среза независимо от размера и повторяемостта. Срезът,
+											който се получава, е със ”запечатан” ръб без стърчащи
+											свободни нишки. DIELSPORT използва лазерна светлина с
+											висока интензивност, фокусирана към мястото на рязане,
+											която създава локално затопляне и споява избраните зони.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="img-text-block mb-3">
+								<div class="row p-4 bg-white rounded-5">
+									<div class="col-md-3 text-center">
+										<img
+											src="images/icons/logo-brand-2.svg"
+											alt="LAKA®15"
+											class="img-fluid"
+										/>
+									</div>
+									<div class="col-md-9">
+										<h5 class="bold-700 pb-2">Лазерно рязане</h5>
+										<ul class="m-0 ps-3">
+											<li>Най-модерният метод за рязане на платове</li>
+											<li>
+												Лазерен лъч с висока интензивност реже плата с голяма
+												точност и запечатва краищата
+											</li>
+											<li>
+												Прецизно отрязване, независимо от формата и размера
+											</li>
+											<li>Висока паропропускливост: над 15 000 g/m²/24hrs</li>
+											<li>Без разнищени краища и стърчащи нишки</li>
+										</ul>
+										<p class="pt-2">
+											Лазерът е най-добрата технология за рязане на платове, тъй
+											като помага за преодоляване на практически трудности като
+											сложността на формите, нищенето на краищата и точността на
+											среза независимо от размера и повторяемостта. Срезът,
+											който се получава, е със ”запечатан” ръб без стърчащи
+											свободни нишки. DIELSPORT използва лазерна светлина с
+											висока интензивност, фокусирана към мястото на рязане,
+											която създава локално затопляне и споява избраните зони.
+										</p>
+									</div>
+								</div>
+							</div>
+							<p class="fs-14">
+								Повече информация за всички материали, с които разполагаме може
+								да откриете тук: <a href class="link bold-600">Технологии</a>
+							</p>
+						</div>
+					</div>
+
+					<div class="page-block">
+						<h2 class="section-heading pb-3">Видео</h2>
+						<div class="row justify-content-center">
+							<div class="col-12">
+								<div class="ratio ratio-16x9">
+									<iframe
+										src="https://www.youtube.com/embed/WO2b03Zdu4Q?si=ITzB451Enk4rK-JA"
+										title="YouTube video"
+										allowfullscreen
+									></iframe>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="page-block">
+						<h2 class="section-heading pb-3">Може да разгледате също:</h2>
+						<div>
+							<!-- Slide 1 -->
+							<div class="">
+								<div class="product-box justify-content-center">
+									<div class="col-md-4 slick-slide">
+										<div class="product-card position-relative">
+											<div class="sale-label">
+												<img
+													src="images/sale-sm.png"
+													alt="Sale Background"
+													class="sale-bgn"
+												/>
+												<span
+													class="sale-txt bold-700 prel fs-16 d-none d-xl-block"
+													>SALE</span
+												>
+												<span class="sale-mobile">SALE -30%</span>
+											</div>
+											<div class="offer-label">
+												<img
+													src="images/offer.png"
+													class="img-fluid"
+													alt="Offer icon"
+												/>
+											</div>
+											<div class="related-img">
+												<img
+													src="images/jacket.png"
+													class="img-fluid"
+													alt="Product 1"
+												/>
+											</div>
+											<div class="related-info">
+												<h5 class="mb-0">
+													<a href="" class="heading">AC ALFA DOWN CAPSULE</a>
+												</h5>
+												<p class="fs-14">Детска капсула против дъжд и вятър</p>
+												<p class="fs-14 py-2 d-flex">
+													<img
+														src="images/icons/green-raiting.svg"
+														class="pe-1"
+														alt=""
+													/>
+													<span class="bold-700">10.000 / 10.000</span>
+												</p>
+												<p>
+													<span class="">199,90лв</span>
+													<del>249,90лв</del>
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-4 slick-slide">
+										<div class="product-card position-relative">
+											<div class="sale-label">
+												<img
+													src="images/sale-sm.png"
+													alt="Sale Background"
+													class="sale-bgn"
+												/>
+												<span
+													class="sale-txt bold-700 prel fs-16 d-none d-xl-block"
+													>SALE</span
+												>
+												<span class="sale-mobile">SALE -30%</span>
+											</div>
+											<div class="offer-label">
+												<img
+													src="images/offer.png"
+													class="img-fluid"
+													alt="Offer icon"
+												/>
+											</div>
+											<div class="related-img">
+												<img
+													src="images/jacket.png"
+													class="img-fluid"
+													alt="Product 1"
+												/>
+											</div>
+											<div class="related-info">
+												<h5 class="mb-0">
+													<a href="" class="heading">AC ALFA DOWN CAPSULE</a>
+												</h5>
+												<p class="fs-14">Детска капсула против дъжд и вятър</p>
+												<p class="fs-14 py-2 d-flex">
+													<img
+														src="images/icons/green-raiting.svg"
+														class="pe-1"
+														alt=""
+													/>
+													<span class="bold-700">10.000 / 10.000</span>
+												</p>
+												<p>
+													<span class="">199,90лв</span>
+													<del>249,90лв</del>
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-4 slick-slide">
+										<div class="product-card position-relative">
+											<div class="sale-label">
+												<img
+													src="images/sale-sm.png"
+													alt="Sale Background"
+													class="sale-bgn"
+												/>
+												<span
+													class="sale-txt bold-700 prel fs-16 d-none d-xl-block"
+													>SALE</span
+												>
+												<span class="sale-mobile">SALE -30%</span>
+											</div>
+											<div class="offer-label">
+												<img
+													src="images/offer.png"
+													class="img-fluid"
+													alt="Offer icon"
+												/>
+											</div>
+											<div class="related-img">
+												<img
+													src="images/jacket.png"
+													class="img-fluid"
+													alt="Product 1"
+												/>
+											</div>
+											<div class="related-info">
+												<h5 class="mb-0">
+													<a href="" class="heading">AC ALFA DOWN CAPSULE</a>
+												</h5>
+												<p class="fs-14">Детска капсула против дъжд и вятър</p>
+												<p class="fs-14 py-2 d-flex">
+													<img
+														src="images/icons/green-raiting.svg"
+														class="pe-1"
+														alt=""
+													/>
+													<span class="bold-700">10.000 / 10.000</span>
+												</p>
+												<p>
+													<span class="">199,90лв</span>
+													<del>249,90лв</del>
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-4 slick-slide">
+										<div class="product-card position-relative">
+											<div class="sale-label">
+												<img
+													src="images/sale-sm.png"
+													alt="Sale Background"
+													class="sale-bgn"
+												/>
+												<span
+													class="sale-txt bold-700 prel fs-16 d-none d-xl-block"
+													>SALE</span
+												>
+												<span class="sale-mobile">SALE -30%</span>
+											</div>
+											<div class="offer-label">
+												<img
+													src="images/offer.png"
+													class="img-fluid"
+													alt="Offer icon"
+												/>
+											</div>
+											<div class="related-img">
+												<img
+													src="images/jacket.png"
+													class="img-fluid"
+													alt="Product 1"
+												/>
+											</div>
+											<div class="related-info">
+												<h5 class="mb-0">
+													<a href="" class="heading">AC ALFA DOWN CAPSULE</a>
+												</h5>
+												<p class="fs-14">Детска капсула против дъжд и вятър</p>
+												<p class="fs-14 py-2 d-flex">
+													<img
+														src="images/icons/green-raiting.svg"
+														class="pe-1"
+														alt=""
+													/>
+													<span class="bold-700">10.000 / 10.000</span>
+												</p>
+												<p>
+													<span class="">199,90лв</span>
+													<del>249,90лв</del>
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-4 slick-slide">
+										<div class="product-card position-relative">
+											<div class="sale-label">
+												<img
+													src="images/sale-sm.png"
+													alt="Sale Background"
+													class="sale-bgn"
+												/>
+												<span
+													class="sale-txt bold-700 prel fs-16 d-none d-xl-block"
+													>SALE</span
+												>
+												<span class="sale-mobile">SALE -30%</span>
+											</div>
+											<div class="offer-label">
+												<img
+													src="images/offer.png"
+													class="img-fluid"
+													alt="Offer icon"
+												/>
+											</div>
+											<div class="related-img">
+												<img
+													src="images/jacket.png"
+													class="img-fluid"
+													alt="Product 1"
+												/>
+											</div>
+											<div class="related-info">
+												<h5 class="mb-0">
+													<a href="" class="heading">AC ALFA DOWN CAPSULE</a>
+												</h5>
+												<p class="fs-14">Детска капсула против дъжд и вятър</p>
+												<p class="fs-14 py-2 d-flex">
+													<img
+														src="images/icons/green-raiting.svg"
+														class="pe-1"
+														alt=""
+													/>
+													<span class="bold-700">10.000 / 10.000</span>
+												</p>
+												<p>
+													<span class="">199,90лв</span>
+													<del>249,90лв</del>
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-4 slick-slide">
+										<div class="product-card position-relative">
+											<div class="sale-label">
+												<img
+													src="images/sale-sm.png"
+													alt="Sale Background"
+													class="sale-bgn"
+												/>
+												<span
+													class="sale-txt bold-700 prel fs-16 d-none d-xl-block"
+													>SALE</span
+												>
+												<span class="sale-mobile">SALE -30%</span>
+											</div>
+											<div class="offer-label">
+												<img
+													src="images/offer.png"
+													class="img-fluid"
+													alt="Offer icon"
+												/>
+											</div>
+											<div class="related-img">
+												<img
+													src="images/jacket.png"
+													class="img-fluid"
+													alt="Product 1"
+												/>
+											</div>
+											<div class="related-info">
+												<h5 class="mb-0">
+													<a href="" class="heading">AC ALFA DOWN CAPSULE</a>
+												</h5>
+												<p class="fs-14">Детска капсула против дъжд и вятър</p>
+												<p class="fs-14 py-2 d-flex">
+													<img
+														src="images/icons/green-raiting.svg"
+														class="pe-1"
+														alt=""
+													/>
+													<span class="bold-700">10.000 / 10.000</span>
+												</p>
+												<p>
+													<span class="">199,90лв</span>
+													<del>249,90лв</del>
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-4 slick-slide">
+										<div class="product-card position-relative">
+											<div class="sale-label">
+												<img
+													src="images/sale-sm.png"
+													alt="Sale Background"
+													class="sale-bgn"
+												/>
+												<span
+													class="sale-txt bold-700 prel fs-16 d-none d-xl-block"
+													>SALE</span
+												>
+												<span class="sale-mobile">SALE -30%</span>
+											</div>
+											<div class="offer-label">
+												<img
+													src="images/offer.png"
+													class="img-fluid"
+													alt="Offer icon"
+												/>
+											</div>
+											<div class="related-img">
+												<img
+													src="images/jacket.png"
+													class="img-fluid"
+													alt="Product 1"
+												/>
+											</div>
+											<div class="related-info">
+												<h5 class="mb-0">
+													<a href="" class="heading">AC ALFA DOWN CAPSULE</a>
+												</h5>
+												<p class="fs-14">Детска капсула против дъжд и вятър</p>
+												<p class="fs-14 py-2 d-flex">
+													<img
+														src="images/icons/green-raiting.svg"
+														class="pe-1"
+														alt=""
+													/>
+													<span class="bold-700">10.000 / 10.000</span>
+												</p>
+												<p>
+													<span class="">199,90лв</span>
+													<del>249,90лв</del>
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Product Navigation -->
+					<div class="product-nav">
+						<ul class="d-flex ul-reset">
+							<li><a href="#buy" class="text-white fs-14 px-3">Купи</a></li>
+							<li>
+								<a href="#gallery" class="text-white fs-14 px-3">Галерия</a>
+							</li>
+							<li>
+								<a href="#details" class="text-white fs-14 px-3">Детайли</a>
+							</li>
+							<li>
+								<a href="#characteristics" class="text-white fs-14 px-3"
+									>Характеристики</a
+								>
+							</li>
+							<li>
+								<a href="#materials" class="text-white fs-14 px-3">Материали</a>
+							</li>
+							<li>
+								<a href="#tech" class="text-white fs-14 px-3">Технологии</a>
+							</li>
+							<li><a href="#care" class="text-white fs-14 px-3">Грижа</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="mobile-sticky-price d-flex justify-content-between d-xl-none">
+			<div>
+				<div class="discount-price">
+					<span class="percent me-2">-23%</span>
+					<div>
+						<p class="fs-12 bold-600">
+							Спестяваш:
+							<span class="hightlight fs-12">50.90лв</span>
+						</p>
+					</div>
+				</div>
+				<div class="current-price d-flex align-items-baseline pt-3">
+					<div class="price pe-2">59.00<span class="fs-16">лв</span></div>
+					<del class="fs-18"> 78.00<span>лв</span> </del>
+				</div>
+			</div>
+			<div class="add-btn-wrapper">
+				<a href="" class="add-btn green">
+					<img src="images/icons/plus.svg" class="pe-2" alt="Add Icon" />
+					<span class="fs-14 bold-600 ms-2">Купи</span>
+				</a>
+			</div>
+		</div>
+
+		<!-- Footer -->
+		<footer class="footer text-dark pt-4">
+			<div>
+				<div class="eco-section">
+					<div class="row text-center text-md-start">
+						<div class="col-6 col-xl-3 eco-box">
+							<img src="images/icons/f-1.svg" alt="" />
+							<h6 class="heading">Модерен стил и дизайн</h6>
+						</div>
+						<div class="col-6 col-xl-3 eco-box">
+							<img src="images/icons/f-2.svg" alt="" />
+							<h6 class="heading">Отговорност към околната среда</h6>
+						</div>
+						<div class="col-6 col-xl-3 eco-box">
+							<img src="images/icons/f-3.svg" alt="" />
+							<h6 class="heading">Здравина, изпитана в полеви условия</h6>
+						</div>
+						<div class="col-6 col-xl-3 eco-box">
+							<img src="images/icons/f-4.svg" alt="" />
+							<h6 class="heading">Опит, традиция и първокласно качество</h6>
+						</div>
+					</div>
+				</div>
+				<div class="footer-wrapper border-top">
+					<div class="d-flex footer-links">
+						<div class="col-12 col-md-3">
+							<ul class="list-unstyled">
+								<li><a href="#" class="link">За Диел Спорт</a></li>
+								<li><a href="#" class="link">История</a></li>
+								<li><a href="#" class="link">Таблица с размери</a></li>
+								<li>
+									<a href="#" class="link">Технологии и материали</a>
+								</li>
+								<li><a href="#" class="link">Контакти</a></li>
+							</ul>
+						</div>
+						<div class="col-12 col-md-3">
+							<ul class="list-unstyled">
+								<li><a href="#" class="link">Магазини</a></li>
+								<li>
+									<a href="#" class="link">Обработка на поръчките</a>
+								</li>
+								<li><a href="#" class="link">Гаранция</a></li>
+								<li>
+									<a href="#" class="link">Грижа За отбори и ски училища</a>
+								</li>
+								<li><a href="#" class="link">ЧЗВ</a></li>
+							</ul>
+						</div>
+						<div class="col-12 col-md-3">
+							<ul class="list-unstyled">
+								<li>
+									<a href="#" class="link">Политика за поверителност</a>
+								</li>
+								<li><a href="#" class="link">Общи условия</a></li>
+								<li>
+									<a href="#" class="link">Декларация за личните данни</a>
+								</li>
+								<li><a href="#" class="link">Бисквитки</a></li>
+								<li><a href="#" class="link">Политика за връщане</a></li>
+							</ul>
+						</div>
+						<div
+							class="col-12 col-md-3 d-flex flex-column justify-content-center"
+						>
+							<div class="payment-options pb-5">
+								<img src="images/icons/mastercard.svg" alt="" />
+								<img src="images/icons/mastercard.svg" alt="" />
+								<img src="images/icons/mastercard.svg" alt="" />
+								<img src="images/icons/mastercard.svg" alt="" />
+								<img src="images/icons/mastercard.svg" alt="" />
+							</div>
+							<div class="d-flex flex-wrap">
+								<a href="#" class="text-dark me-2 d-flex align-items-center">
+									<img
+										src="images/icons/fb.svg"
+										class="pe-1"
+										alt="facebook icon"
+									/>
+									diel.sport
+								</a>
+								<a href="#" class="text-dark me-2 d-flex align-items-center">
+									<img
+										src="images/icons/fb.svg"
+										class="pe-1"
+										alt="facebook icon"
+									/>
+									diel.sport
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+                <div class="footer-bottom border-top">
+                    <div>
+                        <p class="fs-14">Copyright dielsport - 2024. All rights reserved.</p>
+                    </div>
+                    <div>
+                        <ul class="bottom-links ul-reset">
+                            <li><a href="" class="link">Политика за поверителност </a></li>
+                            <li><a href="" class="link">Общи условия</a></li>
+                            <li><a href="" class="link">Декларация за личните данни</a></li>
+                            <li><a href="" class="link">Бисквитки</a></li>
+                            <li><a href="" class="link">Политика за връщане</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <a href="">
+                            <img src="images/icons/webstar.svg" alt="webstar logo">
+                        </a>
+                    </div>
+                </div>
+			</div>
+		</footer>
+
+		<!-- Scripts -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<script
+			type="text/javascript"
+			src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+		></script>
+		<script src="scripts/main.js"></script>
+	</body>
+</html>
